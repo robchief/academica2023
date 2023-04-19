@@ -375,7 +375,7 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="formacion-artistica"><i class="fa fa-photo fa-2x"></i>Cultura y Formación Artística</a>
+      <a href="formacion-artistica"><i class="fa-solid fa-masks-theater fa-2x"></i>Cultura y Formación Artística</a>
       <hr>
     </div>
     
@@ -450,7 +450,7 @@ impresas y digitales.
                    <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="vinculacion-academica"><i class="fa fa-industry fa-2x"></i>Educación Permanente</a>
+      <a href="vinculacion-academica"><i class="fa-solid fa-school fa-2x"></i>Educación Permanente</a>
       <hr>
     </div>
     
@@ -464,21 +464,10 @@ impresas y digitales.
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#tecnicos">Departamento de Servicios Técnicos</a>
+      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#tecnicos">Departamento de Formacion y Desarrollo del Talento Humano</a>
         <i class="fa fa-angle-right"></i>
       </div>
-      <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#factibilidad">Departamento de Factibilidad de Proyectos</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-        <div class="items-body-content">
-      <a href="#">Oficina de Transferencia de Tecnología y Conocimiento (OTTC)</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-       <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#patentamiento">Departamento del Centro de Patentamiento </a>        
-           <i class="fa fa-angle-right"></i>
-      </div>
+      
     </div>
   </div>
            
@@ -489,17 +478,21 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="comisiones-academicas"><i class="fa fa-institution fa-2x"></i>Comisiones Académicas</a>
+      <a href="comisiones-academicas"><i class="fa-solid fa-language fa-2x"></i>Dirección de Lenguas</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/comisiones-academicas/index.php#asuntos">Departamento de Asuntos Académicos</a>
+<a href="http://academica.uaem.mx/comisiones-academicas/index.php#asuntos">Departamento del Centro de Lenguas de Cuernavaca</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento de Comisiones Académicas</a>
+       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento del Centro de Lenguas de Cuautla</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+          <div class="items-body-content">
+       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento del Centro de Lenguas de Jojutla</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -515,13 +508,17 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="formacion-artistica"><i class="fa fa-photo fa-2x"></i>Cultura y Formación Artística</a>
+      <a href="formacion-artistica"><i class="fa-solid fa-volleyball fa-2x"></i>Dirección de Deporte</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Formación Artística</a>
+<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Actividades Deportivas</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+          <div class="items-body-content">
+<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Selecciones Deportivas</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -537,42 +534,20 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="/formacion-multimodal"><i class="fa fa-computer fa-2x"></i>Formación Multimodal</a>
+      <a href="/formacion-multimodal"><i class="fa-solid fa-book-open-reader fa-2x"></i>Investigacion Educativa</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Gestión Operativa</a>
+<a href="formacion-multimodal/index.php">Departamento de Fomento y Orientacion Educativa</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
       
       
     </div>
-      <div class="items-body">
-      <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Desarrollo Formacional</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      
-      
-      
-    </div>
-      <div class="items-body">
-      <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Producción de Recursos Educativos</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      
-      
-      
-    </div>
-      <div class="items-body">
-      <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Operación Técnica</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
+   
       
       
       
