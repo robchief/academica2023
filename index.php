@@ -160,7 +160,7 @@ impresas y digitales.
     
     <ul class="items-body">
       <li class="items-body-content">
-        <a href="educacion-superior.php">Coordinación de Educación Superior</a>
+        <a href="educacion-superior.php">Coordinación de Educación Media Superior</a>
         <i class="fa fa-angle-right"></i>
       </li>
         <ul>
