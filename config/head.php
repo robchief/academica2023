@@ -33,6 +33,8 @@
   })(window,document,'script','dataLayer','GTM-PCWS2ZV');</script>
   <!-- End Google Tag Manager -->
   <link rel="preconnect" href='http://fonts.googleapis.com/' crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css">
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha256-m81NDyncZVbr7v9E6qCWXwx/cwjuWDlHCMzi9pjMobA=" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha256-wLz3iY/cO4e6vKZ4zRmo4+9XDpMcgKOvv/zEU3OMlRo=" crossorigin="anonymous">
   <!--<link rel="stylesheet" href="https://www.uaem.mx/assets/2020/css/bootstrap4.min.css">-->
@@ -52,6 +54,7 @@
   <!-- REVOLUTION STYLE SHEETS -->
     <!--ESTILOS SECRETARIA ACADEMICA CUSTOM-->
     <link rel="stylesheet" type="text/css" href="libs/css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="libs/css/flag-icon.css">
     
   <style>
     .slide-item{
@@ -262,7 +265,7 @@ account: 'Ab0Q0ksEoV'
 </script>
 <script src="https://usrwy.com/widget.js"></script>-->
 <!-- Accessibility Code for "uaem.mx" -->
-<script>
+<!--<script>
     window.interdeal = {
         "sitekey": "7e961c351c18e9a594b9635b362c34a8",
         "Position": "Left",
@@ -301,4 +304,6 @@ account: 'Ab0Q0ksEoV'
         body? body.appendChild(coreCall) : head.appendChild(coreCall);
     })(document, document.head, document.body);
 </script>
+
+-->
 <!-- script accesibilidad --></head>

@@ -78,6 +78,7 @@ margin-bottom: 40px;
     font-family: 'Spectral', serif;
     color: #275D91;
        text-align: center;
+    font-weight: 500;
 
 }
 
@@ -166,6 +167,12 @@ font-weight: bold;
 
 .nombre {
 font-weight: bold;
+margin-top: 20px;
+}
+
+.coordinaciones {
+    
+    margin-top:30px;
 }
 
 .nombre a {
@@ -543,6 +550,13 @@ width: 23%;
 box-shadow: 10px 10px 5px grey;
 }*/
 
+#responsabledepto .departamentos h1 {
+font-size:2.1rem;
+font-weight: bold;
+text-align:center;
+}
+
+
 @media (min-width: 1195px) { 
 .departamentos h1 {
 font-size:2.1rem;
@@ -777,6 +791,21 @@ background-image: url("../images/comisiones/coordcomisiones.png");
 background-image: url("../images/comisiones/comisiones.png");
 }
 
+.dircom img {
+    
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+       margin-bottom: 20px;
+}
+
+
+.dircom {
+    
+    
+ 
+}
 
 
 #departamentos-seccion {
@@ -806,6 +835,9 @@ background: #0D6599;
 color: #fff;
 margin-top: 20px;
 margin-bottom: 20px;
+    font-size: 36px;
+   font-family: "Helvetica Neue", "Helvetica, Arial", sans-serif;
+    font-weight: 500;
 
 }
 /*
@@ -825,7 +857,7 @@ background: #0D6599;
 
 
 margin-bottom: 20px;
-1px solid rgba(0,0,0,.125);
+margin-bottom:  1px solid rgba(0,0,0,.125);
 }
 
 #cardsquare .card {
@@ -1024,6 +1056,7 @@ min-height:50px;
   font-weight: bold;
   font-size: 20px;
   display: block;
+    text-decoration: none;
 
 }
 

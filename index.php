@@ -11,7 +11,7 @@ include_once 'header.php';
     <div class="container">
               <div class="row contenido">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 ruta">
                   <div><a href="http://www.uaem.mx/" title="inicio">Inicio</a> &gt; Secretaría Académica</div>
                 </div>
                 <div class="col-md-4">
@@ -119,8 +119,9 @@ impresas y digitales.
         <!--RESPONSABLE -->
         <div class="col-sm-4 col-md-4">
         <div id="responsable">
-        <div id="dircom">
-         
+        <div class="dircom">
+         <img src="content/images/profiles/placeholder.png" alt="Avatar" style="width:100px;height:100px;border-radius:80%;" >
+
                 <div class="nombre">Secretaría Académica</div>
             <div class="textodescripcion">José Mario Ordóñez Palacios &nbsp;<a href="" data-toggle="modal" data-target="#exampleModal">Semblanza</a><br>
             <a href="mailto:secretaria.academica@uaem.mx">secretaria.academica@uaem.mx</a><br>
@@ -144,7 +145,7 @@ impresas y digitales.
                   
                   
     
-                       <div class="row titulos">
+<div class="row titulos">
   <h1>Estructura</h1>
 </div>
         <div class="row">
@@ -153,39 +154,60 @@ impresas y digitales.
                 <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="educacion-superior.php"><i class="fa fa-graduation-cap fa-2x"></i>Educación Superior</a>
+      <a href="educacion-superior.php"><i class="fa fa-graduation-cap fa-2x"></i>  Educación Superior</a>
       <hr>
     </div>
     
     <ul class="items-body">
       <li class="items-body-content">
-        <a href="http://academica.uaem.mx/educacion-superior">Coordinación de Educación Superior</a>
+        <a href="educacion-superior.php">Coordinación de Educación Superior</a>
+        <i class="fa fa-angle-right"></i>
+      </li>
+        <ul>
+      <li class="items-body-content">
+        <a href="educacion-superior.php">Departamento de Estudios de Bachillerato</a>
+        <i class="fa fa-angle-right"></i>
+      </li>
+        </ul>
+      <li class="items-body-content">
+       <a href="educacion-superior.php">Coordinación de Educación Superior</a>
+        <i class="fa fa-angle-right"></i>
+      </li>
+        <ul>
+            
+            
+            
+      <li class="items-body-content">
+        <a href="educacion-superior.php">Departamento de Innovación Educativa</a>
         <i class="fa fa-angle-right"></i>
       </li>
       <li class="items-body-content">
-        <a href="http://academica.uaem.mx/educacion-superior">Departamento de Innovación Educativa</a>
+       <a href="educacion-superior.php">Departamento de Formación Docente</a>
         <i class="fa fa-angle-right"></i>
       </li>
       <li class="items-body-content">
-       <a href="http://academica.uaem.mx/educacion-superior">Departamento de Formación Docente</a>
+       <a href="educacion-superior.php">Departamento de Evaluación Educativa</a>
         <i class="fa fa-angle-right"></i>
       </li>
+            
+        </ul>
       <li class="items-body-content">
-        <a href="http://academica.uaem.mx/educacion-superior">Departamento de Evaluación Educativa</a>
+       <a href="educacion-superior.php">Coordinación de Estudios de Licenciatura</a>
         <i class="fa fa-angle-right"></i>
       </li>
-      <li class="items-body-content">
-       <a href="http://academica.uaem.mx/educacion-superior">Departamento de Estudios de Licenciatura</a>
+        
+        <ul>
+        <li class="items-body-content">
+       <a href="educacion-superior.php">Departamento de Evaluación de Programas de Licenciatura</a>
         <i class="fa fa-angle-right"></i>
       </li>
-      <li class="items-body-content">
-       <a href="http://academica.uaem.mx/educacion-superior">Departamento de Estudios de Bachillerato</a>
+            
+            <li class="items-body-content">
+       <a href="educacion-superior.php">Departamento de Enlace Jurídico y Gestión</a>
         <i class="fa fa-angle-right"></i>
       </li>
-      <li class="items-body-content">
-       <a href="http://academica.uaem.mx/educacion-superior">Departamento de Orientación Educativa</a>
-        <i class="fa fa-angle-right"></i>
-      </li>
+        
+        </ul>
     </ul>
   </div>
 </div>
@@ -194,49 +216,45 @@ impresas y digitales.
                      <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="investigacion-posgrado.php"><i class="fa fa-microchip fa-2x"></i>Investigación y Posgrado</a>
+      <a href="investigacion-posgrado.php"><i class="fa fa-microchip fa-2x"></i>  Investigación y Posgrado</a>
       <hr>
     </div>
     
     <ul class="items-body">
       <li class="items-body-content">
-       <a href="http://academica.uaem.mx/investigacion-posgrado">COORDINACIÓN DE ESTUDIOS DE POSGRADO </a>
+       <a href="investigacion-posgrado.php">COORDINACIÓN DE ESTUDIOS DE POSGRADO </a>
         <i class="fa fa-angle-right"></i>
       </li>
         
             <ul class="items-body">
         <li class="items-body-content">
-       <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Evaluación de Programas de Posgrado  </a>
+       <a href="investigacion-posgrado.php">Departamento de Evaluación de Programas de Posgrado  </a>
         <i class="fa fa-angle-right"></i>
       </li>
         <li class="items-body-content">
-       <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Diseño y Restructuración curricular  </a>
+       <a href="investigacion-posgrado.php">Departamento de Diseño y Restructuración curricular  </a>
         <i class="fa fa-angle-right"></i>
       </li>
         </ul>
       <div class="items-body-content">
-        <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Consolidación de la Investigación
+        <a href="investigacion-posgrado.php">Departamento de Consolidación de la Investigación
 </a>
         <i class="fa fa-angle-right"></i>
       </div>
   
       <div class="items-body-content">
-        <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Proyectos de Investigación 
+        <a href="investigacion-posgrado.php">Departamento de Proyectos de Investigación 
 </a>
         <i class="fa fa-angle-right"></i>
       </div>
      
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Gestión PRODEP</a>
+       <a href="investigacion-posgrado.php">Departamento de Gestión PRODEP</a>
         <i class="fa fa-angle-right"></i>
       </div>
+        
               <div class="items-body-content">
-        <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Consolidación de la Investigación
-</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-              <div class="items-body-content">
-        <a href="http://academica.uaem.mx/investigacion-posgrado">Departamento de Estímulos Académicos 
+        <a href="investigacion-posgrado.php">Departamento de Estímulos Académicos 
 </a>
         <i class="fa fa-angle-right"></i>
       </div>
@@ -249,25 +267,28 @@ impresas y digitales.
             <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="cooperacion-nacional-internacional"><i class="fa fa-plane fa-2x"></i>Cooperación Nacional e Internacional</a>
+      <a href="educacion-permanente.php"><i class="fa-solid fa-school fa-2x"></i>  Educación Permanente</a>
       <hr>
     </div>
     
     <div class="items-body">
-   
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/cooperacion-nacional-internacional/index.php#docente">Departamento de Movilidad Docente</a>
+<a href="educacion-permanente.php">Departamento de Capacitacion Estrategica y Certificacion</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/cooperacion-nacional-internacional/index.php#estudiantil">Departamento de Movilidad Estudiantil</a>
+    <a href="educacion-permanente.php">Departamento de Administrativo</a>
         <i class="fa fa-angle-right"></i>
       </div>
-      
+      <div class="items-body-content">
+      <a href="educacion-permanente.php">Departamento de Formacion y Desarrollo del Talento Humano</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
       
     </div>
   </div>
-</div>
+           
+           </div>
             
            
            </div>
@@ -275,25 +296,29 @@ impresas y digitales.
              <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="publicaciones-divulgacion.php"><i class="fa fa-book fa-2x"></i>Publicaciones y Divulgación</a>
+      <a href="publicaciones-divulgacion.php"><i class="fa fa-book fa-2x"></i>  Publicaciones y Divulgación</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/publicaciones-divulgacion/index.php#humanidades">Departamento de Edición</a>
+<a href="publicaciones-divulgacion.php">Departamento de Edición</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/publicaciones-divulgacion/index.php#ciencias">Departamento de Producción</a>
+       <a href="publicaciones-divulgacion.php">Departamento de Producción</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/publicaciones-divulgacion/index.php#dhumanidades">Departamento de Gestión</a>
+       <a href="publicaciones-divulgacion.php">Departamento de Gestión</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/publicaciones-divulgacion/index.php#dhumanidades">Departamento de Comunicación</a>
+       <a href="publicaciones-divulgacion.php">Departamento de Comunicación</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+           <div class="items-body-content">
+       <a href="publicaciones-divulgacion.php">Departamento de Vinculación y Proyectos</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -310,31 +335,29 @@ impresas y digitales.
                    <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="vinculacion-academica"><i class="fa fa-industry fa-2x"></i>Vinculación Académica</a>
+      <a href="vinculacion-academica.php"><i class="fa fa-industry fa-2x"></i>  Vinculación Académica</a>
       <hr>
     </div>
     
     <div class="items-body">
-      <div class="items-body-content">
-<a href="http://academica.uaem.mx/vinculacion-academica/index.php#servicio">Departamento de Servicio Social</a>
+           <div class="items-body-content">
+<a href="vinculacion-academica.php">Coordinacion de Contratos de Servicios</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-    <a href="http://academica.uaem.mx/vinculacion-academica/index.php#continua">Departamento de Educación Continua</a>
+<a href="vinculacion-academica.php">Departamento de Servicio Social</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+      
+      <div class="items-body-content">
+      <a href="vinculacion-academica.php">Departamento de Servicios Técnicos</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#tecnicos">Departamento de Servicios Técnicos</a>
+      <a href="vinculacion-academica.php">Departamento de Negocios y Emprendimiento Universitario</a>
         <i class="fa fa-angle-right"></i>
       </div>
-      <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#factibilidad">Departamento de Factibilidad de Proyectos</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-        <div class="items-body-content">
-      <a href="#">Oficina de Transferencia de Tecnología y Conocimiento (OTTC)</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
+        
        <div class="items-body-content">
       <a href="http://academica.uaem.mx/vinculacion-academica/index.php#patentamiento">Departamento del Centro de Patentamiento </a>        
            <i class="fa fa-angle-right"></i>
@@ -349,39 +372,38 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="comisiones-academicas"><i class="fa fa-institution fa-2x"></i>Comisiones Académicas</a>
+      <a href="investigacion-eucativa.php"><i class="fa-solid fa-book-open-reader fa-2x"></i>  Investigacion Educativa</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/comisiones-academicas/index.php#asuntos">Departamento de Asuntos Académicos</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      <div class="items-body-content">
-       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento de Comisiones Académicas</a>
+<a href="investigacion-eucativa.php">Departamento de Fomento y Orientacion Educativa</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
       
       
     </div>
+   
+      
+      
+      
+    </div>
   </div>
-           
-           </div>
             
            </div>
            <div class="col-sm-3 col-md-3">
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="formacion-artistica"><i class="fa-solid fa-masks-theater fa-2x"></i>Cultura y Formación Artística</a>
+      <a href="cultura-formacion.php"><i class="fa-solid fa-masks-theater fa-2x"></i>  Cultura y Formación Artística</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Formación Artística</a>
+<a href="cultura-formacion.php">Departamento de Formación Artística</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -397,13 +419,13 @@ impresas y digitales.
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="formacion-multimodal.php"><i class="fa fa-computer fa-2x"></i>Formación Multimodal</a>
+      <a href="formacion-multimodal.php"><i class="fa fa-computer fa-2x"></i>  Formación Multimodal</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Gestión Operativa</a>
+<a href="formacion-multimodal.php">Departamento de Gestión Operativa</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -412,7 +434,7 @@ impresas y digitales.
     </div>
       <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Desarrollo Formacional</a>
+<a href="formacion-multimodal.php">Departamento de Desarrollo Formacional</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -421,7 +443,7 @@ impresas y digitales.
     </div>
       <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Producción de Recursos Educativos</a>
+<a href="formacion-multimodal.php">Departamento de Producción de Recursos Educativos</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -430,7 +452,7 @@ impresas y digitales.
     </div>
       <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Operación Técnica</a>
+<a href="formacion-multimodal.php">Departamento de Operación Técnica</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -446,53 +468,29 @@ impresas y digitales.
             
             
             <div class="row">
-           <div class="col-sm-3 col-md-3">
-                   <div class="containercard">
-  <div class="items">
-    <div class="items-head">
-      <a href="vinculacion-academica"><i class="fa-solid fa-school fa-2x"></i>Educación Permanente</a>
-      <hr>
-    </div>
-    
-    <div class="items-body">
-      <div class="items-body-content">
-<a href="http://academica.uaem.mx/vinculacion-academica/index.php#servicio">Departamento de Capacitacion Estrategica y Certificacion</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      <div class="items-body-content">
-    <a href="http://academica.uaem.mx/vinculacion-academica/index.php#continua">Departamento de Administrativo</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      <div class="items-body-content">
-      <a href="http://academica.uaem.mx/vinculacion-academica/index.php#tecnicos">Departamento de Formacion y Desarrollo del Talento Humano</a>
-        <i class="fa fa-angle-right"></i>
-      </div>
-      
-    </div>
-  </div>
+           <div class="col-sm-2 col-md-2">
+                   
            
            </div>
-           
-           </div>
-           <div class="col-sm-3 col-md-3">
+           <div class="col-sm-4 col-md-4">
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="comisiones-academicas"><i class="fa-solid fa-language fa-2x"></i>Dirección de Lenguas</a>
+      <a href="lenguas.php"><i class="fa-solid fa-language fa-2x"></i>  Dirección de Lenguas</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/comisiones-academicas/index.php#asuntos">Departamento del Centro de Lenguas de Cuernavaca</a>
+<a href="lenguas.php">Departamento del Centro de Lenguas de Cuernavaca</a>
         <i class="fa fa-angle-right"></i>
       </div>
       <div class="items-body-content">
-       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento del Centro de Lenguas de Cuautla</a>
+       <a href="lenguas.php">Departamento del Centro de Lenguas de Cuautla</a>
         <i class="fa fa-angle-right"></i>
       </div>
           <div class="items-body-content">
-       <a href="http://academica.uaem.mx/comisiones-academicas/index.php#comisiones">Departamento del Centro de Lenguas de Jojutla</a>
+       <a href="lenguas.php">Departamento del Centro de Lenguas de Jojutla</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -504,21 +502,21 @@ impresas y digitales.
            </div>
             
            </div>
-           <div class="col-sm-3 col-md-3">
+           <div class="col-sm-4 col-md-4">
        <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="formacion-artistica"><i class="fa-solid fa-volleyball fa-2x"></i>Dirección de Deporte</a>
+      <a href="deporte.php"><i class="fa-solid fa-volleyball fa-2x"></i>  Dirección de Deporte</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Actividades Deportivas</a>
+<a href="deporte.php">Departamento de Actividades Deportivas</a>
         <i class="fa fa-angle-right"></i>
       </div>
           <div class="items-body-content">
-<a href="http://academica.uaem.mx/formacion-artistica">Departamento de Selecciones Deportivas</a>
+<a href="deporte.php">Departamento de Selecciones Deportivas</a>
         <i class="fa fa-angle-right"></i>
       </div>
       
@@ -530,30 +528,73 @@ impresas y digitales.
            </div>
                
            </div>
-          <div class="col-sm-3 col-md-3">
-       <div class="containercard">
+          <div class="col-sm-2 col-md-2">
+       
+           
+           </div>
+               
+           </div>
+            
+            <div class="row coordinaciones">
+           <div class="col-sm-3 col-md-3">
+               
+           
+           </div>
+           <div class="col-sm-3 col-md-3">
+                   <div class="containercard">
   <div class="items">
     <div class="items-head">
-      <a href="/formacion-multimodal"><i class="fa-solid fa-book-open-reader fa-2x"></i>Investigacion Educativa</a>
+      <a href="comisiones-academicas.php"><i class="fa-solid fa-school fa-2x"></i>  Coordinación de Comisiones Académicas</a>
       <hr>
     </div>
     
     <div class="items-body">
       <div class="items-body-content">
-<a href="formacion-multimodal/index.php">Departamento de Fomento y Orientacion Educativa</a>
+<a href="comisiones-academicas.php">Departamento de Asuntos Académicos</a>
         <i class="fa fa-angle-right"></i>
       </div>
-      
-      
+      <div class="items-body-content">
+    <a href="httpcomisiones-academicas.php">Departamento de Comisiones Académicas</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+     
       
     </div>
+  </div>
+           
+           </div>
+           
+           </div>
+            
+     
+           <div class="col-sm-3 col-md-3">
+       <div class="containercard">
+  <div class="items">
+    <div class="items-head">
+      <a href="cooperacion-nacional-internacional.php"><i class="fa-solid fa-language fa-2x"></i>  Coordinación de Cooperación Nacional e Internacional</a>
+      <hr>
+    </div>
+    
+    <div class="items-body">
+      <div class="items-body-content">
+<a href="cooperacion-nacional-internacional.php">Departamento de Movilidad Estudiantil</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
+      <div class="items-body-content">
+       <a href="cooperacion-nacional-internacional.php">Departamento de Gestión de Cooperación Académica</a>
+        <i class="fa fa-angle-right"></i>
+      </div>
    
+      </div>
       
       
       
     </div>
   </div>
            
+           </div>
+          <div class="col-sm-3 col-md-3">
+
            </div>
                
            </div>
@@ -619,11 +660,9 @@ miembro de la Academia Mexicana de Ciencias y de la American Chemical Society.</
   </div>
 </div>
         <!--TERMINA MODAL-->
-    </div>
 
-<!--TERMINA SECCION CONTACTO-->
+
 
 <?php
-// layout_footer.php holds our javascript and closing html tags
 include_once "footer.php";
 ?>
